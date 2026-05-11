@@ -1,13 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Smart Parking Dashboard</title>
     <script src="https://cdn.tailwindcss.com"></script>
-  </head>
-  <body>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body class="bg-[#0a0a0a]">
     <div id="root"></div>
-    <script type="module" src="/main.jsx"></script>
-  </body>
+
+    <script type="text/babel">
+        // Paste the ENTIRE code from your "full_offgrid_cv_smart_parking_website (1).jsx" here.
+        // IMPORTANT: Delete the first 2-3 lines that start with "import..." 
+        // Then, at the very bottom, add this single line:
+        
+        ReactDOM.createRoot(document.getElementById('root')).render(<SmartParkingSystemWebsite />);
+    </script>
+</body>
 </html>
